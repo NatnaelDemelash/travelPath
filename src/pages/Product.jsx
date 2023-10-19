@@ -6,7 +6,7 @@ const Product = () => {
     <div className="h-[94vh] bg-[#34495E] m-3 px-6 py-4">
       <PageNav />
       <section className="flex justify-center items-center gap-8 my-10">
-        <div className="">
+        <div>
           <img
             src={about}
             alt="AboutUs image"
@@ -15,7 +15,7 @@ const Product = () => {
           />
         </div>
         <div className="flex flex-col gap-6 justify-start text-justify items-center max-w-[400px] text-white font-light">
-          <h1 className="text-3xl font-semibold ">
+          <h1 className="text-4xl font-bold">
             About <span className="brand">TravelPath.pro</span>
           </h1>
           <p>
