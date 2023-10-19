@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #3498db */
+
+:root {
+  --color-brand-primary: #ff914d;
+  --color-brand-secondary: #f4d03f;
+  --bg-color: #ecf0f1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--bg-color);
+  font-family: "Rubik", sans-serif;
+}
+
+nav .active {
+  font-size: bold;
+  border-bottom: 3px solid var(--color-brand-primary);
+}
+
+.homepage {
+  height: calc(100vh - 2rem);
+
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  background-image: linear-gradient(
+      rgba(36, 42, 46, 0.72),
+      rgba(36, 42, 46, 0.72)
+    ),
+    url("./assets/homeBg.jpg");
+  opacity: 0.92;
+  background-size: cover;
+  background-position: center;
+}
+
+.brand {
+  color: var(--color-brand-primary);
+  font-weight: 500;
+}
+
+.btn {
+  padding: 0.6rem 1.3rem;
+  background-color: var(--color-brand-primary);
+}
