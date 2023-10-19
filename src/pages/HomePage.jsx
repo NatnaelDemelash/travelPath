@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import PageNav from "../components/PageNav";
 
 const HomePage = () => {
@@ -14,9 +15,12 @@ const HomePage = () => {
           of. Never forget your wonderful experiances and show you friends how
           you have wandered the world
         </p>
-        <button className="btn btn-ui text-white text-sm uppercase shadow-sm rounded-md transform hover:-translate-y-2 hover:ease-in duration-500">
+        <Link
+          to="/app"
+          className="btn btn-ui text-white text-sm uppercase shadow-sm rounded-md transform hover:-translate-y-2 hover:ease-in duration-500"
+        >
           Start Tracking Now
-        </button>
+        </Link>
       </section>
     </div>
   );
