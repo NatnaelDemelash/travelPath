@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Dosis:wght@200;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -20,12 +20,16 @@
 
 html {
   background: var(--bg-color);
-  font-family: "Rubik", sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 
 nav .active {
   font-size: bold;
   border-bottom: 3px solid var(--color-brand-primary);
+}
+
+.font-dancing {
+  font-family: "Dancing Script", cursive;
 }
 
 .homepage {

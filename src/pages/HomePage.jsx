@@ -6,7 +6,7 @@ const HomePage = () => {
     <div className="homepage">
       <PageNav />
       <section className="max-w-[600px] mx-auto my-6 text-center text-white flex flex-col justify-center items-center gap">
-        <h1 className="text-[2.48rem] leading-[1.25] mt-10 mb-5">
+        <h1 className="text-[3rem] leading-[1.25] mt-10 mb-5">
           You Travel the World. <span className="brand">TravelPath.pro</span>{" "}
           keep track of your adventures
         </h1>
