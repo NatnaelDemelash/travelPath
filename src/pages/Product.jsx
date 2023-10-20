@@ -16,7 +16,7 @@ const Product = () => {
         </div>
         <div className="flex flex-col gap-6 justify-start text-justify items-center max-w-[400px] text-white font-light">
           <h1 className="text-4xl font-bold">
-            About <span className="brand">TravelPath.pro</span>
+            About <span className="brand font-bold">TravelPath.pro ✈️</span>
           </h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
