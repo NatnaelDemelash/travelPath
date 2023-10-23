@@ -9,7 +9,6 @@ import { useEffect, useState } from "react";
 import CitiyList from "./components/CitiyList";
 import CountryList from "./components/CountryList";
 import CityDetail from "./components/CityDetail";
-import CityItem from "./components/CityItem";
 
 const App = () => {
   const [cities, setCities] = useState([]);
