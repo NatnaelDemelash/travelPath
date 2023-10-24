@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import CitiyList from "./components/CitiyList";
 import CountryList from "./components/CountryList";
 import CityDetail from "./components/CityDetail";
+import Form from "./components/Form";
 
 const App = () => {
   const [cities, setCities] = useState([]);
@@ -54,7 +55,7 @@ const App = () => {
               path="countries"
               element={<CountryList cities={cities} isLoading={isLoading} />}
             />
-            <Route path="form" element={<p>List of Form</p>} />
+            <Route path="form" element={<Form />} />
           </Route>
         </Routes>
       </Router>
